@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <img src="https://media.giphy.com/media/LSFXlAmuWhf6KN49FG/giphy.gif" alt="DJ Khaled">
+    <!-- <form action="results.html" method="GET" enctype="multipart/form-data"> -->
+  <form action="results.html" method="GET" target="blank">
+    <div>
+        <label class="bold" for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+
+    <div>
+      <label class="bold" for="email">Email</label>
+      <input type="email" name="email" id="email" required >
+    </div>
+
+    <div>
+      <label class="bold" for="phone">Phone</label>
+      <input type="tel" name="phone" id="phone">
+    </div>
+
+    <div>
+      <label  class="bold" for="date">Want a birthday wish?</label>
+      <input type="date" name="date" id="date">
+    </div>
+    <div>
+       <p class="bold">How did you hear about me?</p>
+      <div>
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+      </div>
+      <div>
+        <label for="res">Resume Submission</label>
+        <input type="checkbox" name="res" id="res">
+      </div>
+      <div>
+        <label for="LI">LinkedIn</label>
+        <input type="checkbox" name="LI" id="LI">
+      </div>
+      <div>
+        <label for="CAR">Coding Academy Rec</label>
+        <input type="checkbox" name="CAR" id="CAR">
+      </div>
+    </div>
+
+    <div>
+      <p class="bold"> Would you like me to reach out to you?</p>
+      <div>
+        <label for="male">Yes</label>
+        <input type="radio" name="yes" id="yes" value="yes">
+      </div>
+
+      <div>
+        <label for="no">No</label>
+        <input type="radio" name="no" id="no" value="no">
+      </div>
+
+      <br>
+
+    <div>
+      <label for="comments"></label>
+      <textarea class="com" id="comments" name="comments" placeholder="Comments" maxlength="500" minlength="20" required></textarea>
+    </div>
+ 
+    <br>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+</html> 
+
